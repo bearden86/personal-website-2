@@ -1,0 +1,65 @@
+/* use "*" to apply styling to all elements */
+* {
+    font-family: 'Courier New', Courier, monospace;
+    font-style:oblique;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* element selectors */
+h1 {
+    color: #FF0000;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+h2 {
+    color:rgba(4, 0, 255, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul { 
+    list-style: none; 
+    margin: 0; 
+    padding: 0; 
+  } 
+   
+  nav ul li { 
+    display: inline-block; 
+  } 
+
+  nav ul li a { 
+    display: block; 
+    padding: 10px 20px; /* create space between links */ 
+    text-decoration: none; 
+  } 
+   
+  nav ul li + li { 
+    margin-left: 10px; /* adjust margin as needed */ 
+  } 
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+}
+.social {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    height: 500px;
+}
